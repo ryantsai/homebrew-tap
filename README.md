@@ -1,18 +1,21 @@
-# Ryantsai Tap
+# KKTerm Homebrew Tap
 
-## How do I install these formulae?
+Install KKTerm with:
 
-`brew install ryantsai/tap/<formula>`
+```sh
+brew install --cask ryantsai/tap/kkterm
+```
 
-Or `brew tap ryantsai/tap` and then `brew install <formula>`.
+Alternatively, add the tap first:
 
-Or, in a `brew bundle` `Brewfile`:
+```sh
+brew tap ryantsai/tap
+brew install --cask kkterm
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "ryantsai/tap"
-brew "<formula>"
+cask "kkterm"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
