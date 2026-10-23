@@ -1,6 +1,6 @@
 cask "kkterm" do
-  version "3000.0.26"
-  sha256 "2bf28788752d48046e053a1b988665bc57f3173aaa982ff909cc33de163de783"
+  version "3000.0.27"
+  sha256 "44224fb9803137f46cc0447f449695c82c6f78c1785be61b1c526799ba201dcd"
 
   url "https://github.com/ryantsai/KKTerm/releases/download/v#{version}/kkterm-#{version}-macos-universal.dmg"
   name "KKTerm"
